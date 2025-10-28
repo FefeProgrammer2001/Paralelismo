@@ -10,3 +10,4 @@
 ### No need compilation flags with posix process <unistd.h>
 
 ![core_cpu-1623559884](https://github.com/user-attachments/assets/ada57d44-2200-43f1-8b6c-7bb16288b591)
+[label](https://stackoverflow.com/questions/48031172/parallel-programming-using-pthread)
