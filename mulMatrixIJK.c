@@ -54,7 +54,7 @@ void* multiply_part(void* arg) {
     ThreadData* data = (ThreadData*)arg;
     Matrix* m = data->m;
 
-    for (int i = data->start; i < data->end; ++i) {
+    for (int i = data->start; i < data->end; i++) {
         for (int j = 0; j < m->n; j++) {
             for (int k = 0; k < m->n; k++) {
                 m->C[i][j] += m->A[i][k] * m->B[k][j];
