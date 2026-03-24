@@ -2,12 +2,10 @@
 
 ### The ideia is use parallelism techniques to optimze classics algorithms, such as sort algorithms, matrix multiplication, and others.
 
+### That code example uses parallelism with threads to sum all values in array, in this case, an array with 2^30 elements
 
-### Compile mulMatrixIKJ.c with C11 language version (-g is optional for debug)
-    clang -Wall -Werror -Wextra -std=c11 -O3 -g mulMatrixIKJ.c -o mulMatrixIKJ
-
-### Compile mulMatrixIJK.c with C11 language version (-g is optional for debug)
-    clang -Wall -Werror -Wextra -std=c11 -O3 -g mulMatrixIJK.c -o mulMatrixIJK
+### Compile mulMatrixIKJ.c with C17 language version (-g is optional for debug)
+    clang -Wall -Werror -Wextra -std=c17 -O3 -g somarVetor.c -o somarVetor
 
 ### No need compilation flags with posix process <unistd.h>
 
