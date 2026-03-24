@@ -70,7 +70,7 @@ void printMatrix(Matrix* m) {
 
 int main(int argc, char* argv[]) {
     if (argc < 3) {
-        fprintf(stderr, "Usage: %s <matrix_size> <num_threads>", argv[0]);
+        fprintf(stderr, "Usage: %s <matrix_size> <num_threads>\n", argv[0]);
         return EXIT_FAILURE;
     }
 
